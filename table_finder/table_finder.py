@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 
 def table_finder(query: str)->pd.DataFrame:
     tables=[]
@@ -17,4 +18,4 @@ def table_finder(query: str)->pd.DataFrame:
         if i[1] not in cte_names:
             tables.append((i[1].strip(';'), i[0]))
     
-    return tables
+    return pd.DataFrame(tables, ["name", "position"])
