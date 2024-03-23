@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/table_finder/__init__.py
-src/table_finder/table_finder.py
-src/table_finder.egg-info/PKG-INFO
-src/table_finder.egg-info/SOURCES.txt
-src/table_finder.egg-info/dependency_links.txt
-src/table_finder.egg-info/top_level.txt
